@@ -1,0 +1,57 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "StakingProxy",
+  "sourceName": "contracts/staking/StakingProxy.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "implementation",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "ZeroImplementationAddress",
+      "type": "error"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "fallback"
+    },
+    {
+      "inputs": [],
+      "name": "SERVICE_STAKING_PROXY",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getImplementation",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "implementation",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f5ffd5b506040516101df3803806101df833981016040819052602b916077565b6001600160a01b03811660515760405163d02c623d60e01b815260040160405180910390fd5b7f9e5e169c1098011e4e5940a3ec1797686b2a8294a9b77a4c676b121bdc0ebb5e5560a2565b5f602082840312156086575f5ffd5b81516001600160a01b0381168114609b575f5ffd5b9392505050565b610130806100af5f395ff3fe6080604052600436106025575f3560e01c806346032dbc146065578063aaf10f421460a9575b7f9e5e169c1098011e4e5940a3ec1797686b2a8294a9b77a4c676b121bdc0ebb5e54365f5f375f5f365f845af490503d5f5f3e806060573d5ffd5b503d5ff35b348015606f575f5ffd5b5060967f9e5e169c1098011e4e5940a3ec1797686b2a8294a9b77a4c676b121bdc0ebb5e81565b6040519081526020015b60405180910390f35b34801560b3575f5ffd5b507f9e5e169c1098011e4e5940a3ec1797686b2a8294a9b77a4c676b121bdc0ebb5e5460405173ffffffffffffffffffffffffffffffffffffffff909116815260200160a056fea26469706673582212209964f419d1ff0cb4a7b9f593ccc5b3c0415ebdb50ffb9b727134978c7842720e64736f6c634300081c0033",
+  "deployedBytecode": "0x6080604052600436106025575f3560e01c806346032dbc146065578063aaf10f421460a9575b7f9e5e169c1098011e4e5940a3ec1797686b2a8294a9b77a4c676b121bdc0ebb5e54365f5f375f5f365f845af490503d5f5f3e806060573d5ffd5b503d5ff35b348015606f575f5ffd5b5060967f9e5e169c1098011e4e5940a3ec1797686b2a8294a9b77a4c676b121bdc0ebb5e81565b6040519081526020015b60405180910390f35b34801560b3575f5ffd5b507f9e5e169c1098011e4e5940a3ec1797686b2a8294a9b77a4c676b121bdc0ebb5e5460405173ffffffffffffffffffffffffffffffffffffffff909116815260200160a056fea26469706673582212209964f419d1ff0cb4a7b9f593ccc5b3c0415ebdb50ffb9b727134978c7842720e64736f6c634300081c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

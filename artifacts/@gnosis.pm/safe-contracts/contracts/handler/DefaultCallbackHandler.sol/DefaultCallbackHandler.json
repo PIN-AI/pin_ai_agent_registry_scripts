@@ -1,0 +1,206 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "DefaultCallbackHandler",
+  "sourceName": "@gnosis.pm/safe-contracts/contracts/handler/DefaultCallbackHandler.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "NAME",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "VERSION",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "onERC1155BatchReceived",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "onERC1155Received",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "onERC721Received",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "interfaceId",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "tokensReceived",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f5ffd5b506105638061001c5f395ff3fe608060405234801561000f575f5ffd5b5060043610610079575f3560e01c8063a3f4df7e11610058578063a3f4df7e146100f7578063bc197c8114610140578063f23a6e6114610162578063ffa1ad7414610182575f5ffd5b806223de291461007d57806301ffc9a714610097578063150b7a02146100bf575b5f5ffd5b61009561008b366004610264565b5050505050505050565b005b6100aa6100a536600461030d565b6101a6565b60405190151581526020015b60405180910390f35b6100de6100cd36600461033b565b630a85bd0160e11b95945050505050565b6040516001600160e01b031990911681526020016100b6565b6101336040518060400160405280601881526020017f44656661756c742043616c6c6261636b2048616e646c6572000000000000000081525081565b6040516100b691906103a5565b6100de61014e36600461041b565b63bc197c8160e01b98975050505050505050565b6100de6101703660046104ba565b63f23a6e6160e01b9695505050505050565b610133604051806040016040528060058152602001640312e302e360dc1b81525081565b5f6001600160e01b03198216630271189760e51b14806101d657506001600160e01b03198216630a85bd0160e11b145b806101f157506001600160e01b031982166301ffc9a760e01b145b92915050565b803573ffffffffffffffffffffffffffffffffffffffff8116811461021a575f5ffd5b919050565b5f5f83601f84011261022f575f5ffd5b50813567ffffffffffffffff811115610246575f5ffd5b60208301915083602082850101111561025d575f5ffd5b9250929050565b5f5f5f5f5f5f5f5f60c0898b03121561027b575f5ffd5b610284896101f7565b975061029260208a016101f7565b96506102a060408a016101f7565b955060608901359450608089013567ffffffffffffffff8111156102c2575f5ffd5b6102ce8b828c0161021f565b90955093505060a089013567ffffffffffffffff8111156102ed575f5ffd5b6102f98b828c0161021f565b999c989b5096995094979396929594505050565b5f6020828403121561031d575f5ffd5b81356001600160e01b031981168114610334575f5ffd5b9392505050565b5f5f5f5f5f6080868803121561034f575f5ffd5b610358866101f7565b9450610366602087016101f7565b935060408601359250606086013567ffffffffffffffff811115610388575f5ffd5b6103948882890161021f565b969995985093965092949392505050565b602081525f82518060208401528060208501604085015e5f604082850101526040601f19601f83011684010191505092915050565b5f5f83601f8401126103ea575f5ffd5b50813567ffffffffffffffff811115610401575f5ffd5b6020830191508360208260051b850101111561025d575f5ffd5b5f5f5f5f5f5f5f5f60a0898b031215610432575f5ffd5b61043b896101f7565b975061044960208a016101f7565b9650604089013567ffffffffffffffff811115610464575f5ffd5b6104708b828c016103da565b909750955050606089013567ffffffffffffffff81111561048f575f5ffd5b61049b8b828c016103da565b909550935050608089013567ffffffffffffffff8111156102ed575f5ffd5b5f5f5f5f5f5f60a087890312156104cf575f5ffd5b6104d8876101f7565b95506104e6602088016101f7565b94506040870135935060608701359250608087013567ffffffffffffffff81111561050f575f5ffd5b61051b89828a0161021f565b979a969950949750929593949250505056fea2646970667358221220e6a9f25a2e23b53cb1399ecc8df096cbfb571cc6ed0de5860622a4d283123c2664736f6c634300081c0033",
+  "deployedBytecode": "0x608060405234801561000f575f5ffd5b5060043610610079575f3560e01c8063a3f4df7e11610058578063a3f4df7e146100f7578063bc197c8114610140578063f23a6e6114610162578063ffa1ad7414610182575f5ffd5b806223de291461007d57806301ffc9a714610097578063150b7a02146100bf575b5f5ffd5b61009561008b366004610264565b5050505050505050565b005b6100aa6100a536600461030d565b6101a6565b60405190151581526020015b60405180910390f35b6100de6100cd36600461033b565b630a85bd0160e11b95945050505050565b6040516001600160e01b031990911681526020016100b6565b6101336040518060400160405280601881526020017f44656661756c742043616c6c6261636b2048616e646c6572000000000000000081525081565b6040516100b691906103a5565b6100de61014e36600461041b565b63bc197c8160e01b98975050505050505050565b6100de6101703660046104ba565b63f23a6e6160e01b9695505050505050565b610133604051806040016040528060058152602001640312e302e360dc1b81525081565b5f6001600160e01b03198216630271189760e51b14806101d657506001600160e01b03198216630a85bd0160e11b145b806101f157506001600160e01b031982166301ffc9a760e01b145b92915050565b803573ffffffffffffffffffffffffffffffffffffffff8116811461021a575f5ffd5b919050565b5f5f83601f84011261022f575f5ffd5b50813567ffffffffffffffff811115610246575f5ffd5b60208301915083602082850101111561025d575f5ffd5b9250929050565b5f5f5f5f5f5f5f5f60c0898b03121561027b575f5ffd5b610284896101f7565b975061029260208a016101f7565b96506102a060408a016101f7565b955060608901359450608089013567ffffffffffffffff8111156102c2575f5ffd5b6102ce8b828c0161021f565b90955093505060a089013567ffffffffffffffff8111156102ed575f5ffd5b6102f98b828c0161021f565b999c989b5096995094979396929594505050565b5f6020828403121561031d575f5ffd5b81356001600160e01b031981168114610334575f5ffd5b9392505050565b5f5f5f5f5f6080868803121561034f575f5ffd5b610358866101f7565b9450610366602087016101f7565b935060408601359250606086013567ffffffffffffffff811115610388575f5ffd5b6103948882890161021f565b969995985093965092949392505050565b602081525f82518060208401528060208501604085015e5f604082850101526040601f19601f83011684010191505092915050565b5f5f83601f8401126103ea575f5ffd5b50813567ffffffffffffffff811115610401575f5ffd5b6020830191508360208260051b850101111561025d575f5ffd5b5f5f5f5f5f5f5f5f60a0898b031215610432575f5ffd5b61043b896101f7565b975061044960208a016101f7565b9650604089013567ffffffffffffffff811115610464575f5ffd5b6104708b828c016103da565b909750955050606089013567ffffffffffffffff81111561048f575f5ffd5b61049b8b828c016103da565b909550935050608089013567ffffffffffffffff8111156102ed575f5ffd5b5f5f5f5f5f5f60a087890312156104cf575f5ffd5b6104d8876101f7565b95506104e6602088016101f7565b94506040870135935060608701359250608087013567ffffffffffffffff81111561050f575f5ffd5b61051b89828a0161021f565b979a969950949750929593949250505056fea2646970667358221220e6a9f25a2e23b53cb1399ecc8df096cbfb571cc6ed0de5860622a4d283123c2664736f6c634300081c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

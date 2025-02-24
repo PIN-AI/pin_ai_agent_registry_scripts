@@ -1,0 +1,135 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockServiceRegistry",
+  "sourceName": "contracts/test/MockServiceRegistry.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "agentInstance",
+          "type": "address"
+        }
+      ],
+      "name": "mapAgentInstanceOperators",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "operator",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "mapServiceOwners",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "serviceId",
+          "type": "uint256"
+        }
+      ],
+      "name": "mapServices",
+      "outputs": [
+        {
+          "internalType": "uint96",
+          "name": "",
+          "type": "uint96"
+        },
+        {
+          "internalType": "address",
+          "name": "multisig",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint8",
+          "name": "state",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "serviceId",
+          "type": "uint256"
+        }
+      ],
+      "name": "ownerOf",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "serviceOwner",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "serviceId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "serviceOwner",
+          "type": "address"
+        }
+      ],
+      "name": "setServiceOwner",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f5ffd5b506102a28061001c5f395ff3fe608060405234801561000f575f5ffd5b5060043610610064575f3560e01c80634f6ab83d1161004d5780634f6ab83d146101005780636352211e146101285780639321ac9c14610150575f5ffd5b80634236aff8146100685780634eb780da146100d7575b5f5ffd5b61007b6100763660046101f0565b6101a5565b604080516bffffffffffffffffffffffff90981688526001600160a01b0390961660208801529486019390935263ffffffff9182166060860152811660808501521660a083015260ff1660c082015260e0015b60405180910390f35b6100e86100e5366004610222565b90565b6040516001600160a01b0390911681526020016100ce565b6100e861010e3660046101f0565b5f602081905290815260409020546001600160a01b031681565b6100e86101363660046101f0565b5f908152602081905260409020546001600160a01b031690565b6101a361015e366004610242565b5f9182526020829052604090912080547fffffffffffffffffffffffff0000000000000000000000000000000000000000166001600160a01b03909216919091179055565b005b5f818152602081905260408120546001600160a01b0316818080808087158015906101d05750606488105b156101d9575060045b5f9895975088965086958695508594509092509050565b5f60208284031215610200575f5ffd5b5035919050565b80356001600160a01b038116811461021d575f5ffd5b919050565b5f60208284031215610232575f5ffd5b61023b82610207565b9392505050565b5f5f60408385031215610253575f5ffd5b8235915061026360208401610207565b9050925092905056fea264697066735822122054616669d418d9c04e58b49f4b374ae940db7fc52d9c82b928a6b434f27ff6c964736f6c634300081c0033",
+  "deployedBytecode": "0x608060405234801561000f575f5ffd5b5060043610610064575f3560e01c80634f6ab83d1161004d5780634f6ab83d146101005780636352211e146101285780639321ac9c14610150575f5ffd5b80634236aff8146100685780634eb780da146100d7575b5f5ffd5b61007b6100763660046101f0565b6101a5565b604080516bffffffffffffffffffffffff90981688526001600160a01b0390961660208801529486019390935263ffffffff9182166060860152811660808501521660a083015260ff1660c082015260e0015b60405180910390f35b6100e86100e5366004610222565b90565b6040516001600160a01b0390911681526020016100ce565b6100e861010e3660046101f0565b5f602081905290815260409020546001600160a01b031681565b6100e86101363660046101f0565b5f908152602081905260409020546001600160a01b031690565b6101a361015e366004610242565b5f9182526020829052604090912080547fffffffffffffffffffffffff0000000000000000000000000000000000000000166001600160a01b03909216919091179055565b005b5f818152602081905260408120546001600160a01b0316818080808087158015906101d05750606488105b156101d9575060045b5f9895975088965086958695508594509092509050565b5f60208284031215610200575f5ffd5b5035919050565b80356001600160a01b038116811461021d575f5ffd5b919050565b5f60208284031215610232575f5ffd5b61023b82610207565b9392505050565b5f5f60408385031215610253575f5ffd5b8235915061026360208401610207565b9050925092905056fea264697066735822122054616669d418d9c04e58b49f4b374ae940db7fc52d9c82b928a6b434f27ff6c964736f6c634300081c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

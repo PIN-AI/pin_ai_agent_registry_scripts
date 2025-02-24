@@ -1,0 +1,154 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IService",
+  "sourceName": "contracts/staking/StakingBase.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "serviceId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getAgentParams",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "numAgentIds",
+          "type": "uint256"
+        },
+        {
+          "components": [
+            {
+              "internalType": "uint32",
+              "name": "slots",
+              "type": "uint32"
+            },
+            {
+              "internalType": "uint96",
+              "name": "bond",
+              "type": "uint96"
+            }
+          ],
+          "internalType": "struct IService.AgentParams[]",
+          "name": "agentParams",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "serviceId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getService",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint96",
+              "name": "securityDeposit",
+              "type": "uint96"
+            },
+            {
+              "internalType": "address",
+              "name": "multisig",
+              "type": "address"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "configHash",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "uint32",
+              "name": "threshold",
+              "type": "uint32"
+            },
+            {
+              "internalType": "uint32",
+              "name": "maxNumAgentInstances",
+              "type": "uint32"
+            },
+            {
+              "internalType": "uint32",
+              "name": "numAgentInstances",
+              "type": "uint32"
+            },
+            {
+              "internalType": "enum IService.ServiceState",
+              "name": "state",
+              "type": "uint8"
+            },
+            {
+              "internalType": "uint32[]",
+              "name": "agentIds",
+              "type": "uint32[]"
+            }
+          ],
+          "internalType": "struct IService.Service",
+          "name": "service",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "id",
+          "type": "uint256"
+        }
+      ],
+      "name": "safeTransferFrom",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "id",
+          "type": "uint256"
+        }
+      ],
+      "name": "transferFrom",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

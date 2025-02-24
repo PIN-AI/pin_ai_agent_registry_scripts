@@ -1,0 +1,20 @@
+{
+  "mockToken": "0x40c5B01232c264509c1eCFfca5726c727AaBB065",
+  "uniswapFactory": "0xfc30e4a6B394848aDacE3eA8cE541176Be773fb3",
+  "uniswapV2Router": "0xE43927B09877eD787E4eb4BfC065a7564faADC88",
+  "agentTokenImpl": "0x63fd37DA627D706C5197a3a687d4F47120974bC1",
+  "componentRegistry": "0xE5E0c03261703ABbbBE9A03832d209e86905b509",
+  "agentRegistry": "0x926AdE85aBB91Daec964f0e6D399C076Cb0F84E3",
+  "registrationFee": "100000000000000",
+  "applicationThreshold": "1000000000000000000",
+  "defaultTokenParams": {
+    "maxSupply": "600000000000000000000000",
+    "lpSupply": "500000000000000000000000",
+    "vaultSupply": "100000000000000000000000",
+    "maxTokensPerWallet": "10000000000000000000000",
+    "maxTokensPerTxn": "1000000000000000000000",
+    "botProtectionDurationInSeconds": 60,
+    "vault": "0x2306d15D1Fcc0e5986f4980f689DB7Dd66069D9E"
+  },
+  "network": "baseSepolia"
+}
