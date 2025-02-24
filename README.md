@@ -122,6 +122,10 @@ async function createAgent() {
 }
 ```
 
+## Related Smart Contracts on Chain
+
+- [PIN Agent Registry](https://sepolia.basescan.org/address/0x926ade85abb91daec964f0e6d399c076cb0f84e3)
+
 ## Support
 
 If you encounter any issues or need assistance, please open an issue in the GitHub repository.
